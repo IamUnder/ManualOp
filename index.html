@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Manual de Usuario CarShare</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-center pt-5 pb-5">Manual de Usuario CarShare</h1>
+    <hr>
+    <div class="container pt-4">
+        <h2>Indice</h2>
+        <div class="row">
+            <ol>
+                <li>
+                    <a href="#introduccion">Introduccion.</a>
+                    <ol>
+                        <li>
+                            <a href="#objetivo">Objetivo.</a>
+                        </li>
+                        <li>
+                            <a href="#requerimientos">Requerimientos</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#sistema">Opciones del sistema.</a>
+                    <ol>
+                        <li>
+                            <a href="#ingreso">Ingreso al sistema.</a>
+                        </li>
+                        <li>
+                            <a href="#registro">Registro en el sistema.</a>
+                        </li>
+                        <li>
+                            <a href="#recuperar">Recuperar contraseña.</a>
+                        </li>
+                        <li>
+                            <a href="#inicio">Primer inicio.</a>
+                        </li>
+                        <li>
+                            <a href="#principal">Pagina Principal.</a>
+                        </li>
+                        <li>
+                            <a href="#perfil">Editar perfil.</a>
+                        </li>
+                        <li>
+                            <a href="#acerca">Acerca de.</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#administracion">Opciones de Administrador.</a>
+                    <ol>
+                        <li>
+                            <a href="#ruedas">Administración de ruedas.</a>
+                        </li>
+                        <li>
+                            <a href="#usuarios">Administración de usuarios.</a>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="row pt-5">
+            <h3>1.- Introducción.</h3><br>
+            <a name="introduccion"></a>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">1.1.- Objetivo.</h3>
+            <a name="objetivo"></a>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>
+                    Otorgar a los usuarios una manera comoda y sencilla de poder compartir coche en los cuadrantes de trabajo.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">1.2.- Requerimientos.</h3>
+            <a name="requerimientos"></a>
+        </div>
+        <div class="row">
+           <div class="col">
+            <p>
+                Acceso a la web desde cualquier dispositivo desde pc hasta tablet...
+            </p>
+            <p>
+                Despliegue en equipo propio redactado en los githubs del proyecto.
+                <a href="https://github.com/rnavas81/ServidorRuedas">API</a>
+                <a href="https://github.com/rnavas81/ClienteRuedas">Cliente</a>
+            </p>
+
+           </div>
+        </div>
+        <!-- segunda parte -->
+        <div class="row">
+            <h3>2.- Opciones del sistema.</h3><br>
+            <a name="sistema"></a>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.1.- Ingreso al sistema.</h3>
+            <a name="ingreso"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-4">
+                <img src="img/Login.jpg" alt="imagen de login" class="img-fluid">
+            </div>
+            <div class="col-8">
+                En esta pantalla el usuario debe escribir el correo (<b>1 en al imagen</b>) y la clave(<b>2 en la imagen</b>) y presionar el boton de login, los datos son los que el usuario haya configurado
+                en el momento de registrarse, si el usuario no esta registrado debera presionar sobre el link de registrarse en la parte inferior, esto le llevara a la pestaña de registro.
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.2.- Registro en el sistema.</h3>
+            <a name="registro"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-8">
+                Aqui el nuevo usuario podra introducir sus datos para darse de alta en el sistema. Los valores que debera de introducir son los siguientes segun la imagen.
+                <b>1</b>: Nombre.
+                <b>2</b>: Apellidos.
+                <b>3</b>: Email.
+                <b>4</b>: Contraseña.
+                <p>Siento todos estos datos obligatorios, una vez el usuario los haya introducido debera de presioar el boton de registrar (<b>5 en la imagen</b>). Al correo introducido llegara un mail de validación con un link
+                    que sera obligatorio acceder para verificar su cuenta antes de acceder al sistema.
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="img/Registro.jpg" alt="imagen de registro" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.3.- Recuperar contraseña.</h3>
+            <a name="recuperar"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-4">
+                <img src="img/Recuperar.jpg" alt="imagen de recuperar" class="img-fluid">
+            </div>
+            <div class="col-8">
+               <p>
+                   En caso de que el usuario haya olvidado su contraseña podra pedir una atraves del siguiente menu, en el cual solo sera necesario introducir el mail con el que se registro (<b>1 en la imagen</b>) y presionar el boton de "Recuperar contraseña" (<b>2 en la imagen</b>). 
+                </p>
+                <p>
+                    A este llegara una nueva contraseña con la cual podra acceder al sistema. Es recomendable una vez haya iniciado sesion cambie la contraseña en su perfil de usuario.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.4.- Primer inicio.</h3>
+            <a name="inicio"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-8">
+                <p>En caso de que sea el primer inicio el usuario accedera a la pagina para seleccionar su horario. El usuario debera de seleccionar a que rueda quiere unirse, esto desplegara
+                    el horario de dicha rueda para que el usuario pueda marcar las horas que se corresponden con su horario.
+                </p>
+                <p>
+                    Una vez haya marcado su horario debera de presionar sobre "Enviar", esto guardara sus datos y le permitira a partir de ahi realizar los inicios de sesion de manera normal.
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="img/Unirse.JPG" alt="imagen de login" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.5.- Pagina principal.</h3>
+            <a name="principal"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-4">
+                <img src="img/Main1.jpg" alt="imagen de main" class="img-fluid">
+            </div>
+            <div class="col-8">
+               <p>
+                   Una vez hecho el login el usuario accera a la ventana que se representa en la imagen, en el cuadrante esta representadas todas las convinaciones de la rueda a la que estamos unidos.
+               </p>
+               <p>
+                   En color esta destacado el viaje den que formamos parte, y si el usuario se encuentra en la parte superior esto indicara que es conductor ese dia.
+               </p>
+               <p>
+                   Si presionamos el menu de hamburgesa de la parte superior se nos desplegara el menu que se ve en la imagen. En este menu tenemos el menu de navegacion para poder acceder a las diferentes
+                   ventanas con las que cuenta nuestra aplicacion.
+               </p>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.6.- Editar perfil.</h3>
+            <a name="perfil"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-8">
+               <p>
+                   En este ventana el usuario podra tanto editar su perfil como añadir una imagen de usuario a la aplicacion.
+               </p>
+               <p>
+                   Los campos que el usuario podra introducir son, segun la imagen, son:
+                <p>
+                    <b>1</b>: Nombre.
+                </p>
+                <p>
+                    <b>2</b>: Apellido.
+                </p>
+                <p>
+                    <b>3</b>: Email.
+                </p>
+                <p>
+                    <b>4 y 6</b>: Contraseña, estas deberan de coincidir para poder ser actualizada.
+                </p>
+                <p>
+                    <b>7</b>: Imagen.
+                </p>
+                <p>
+                    Una vez que el usuario haya introducido los valores que desea actualizar, debera de presionar el boton de "Guardar" (<b>8 en la imagen</b>).
+                </p>
+                <p>
+                    En caso de que el usuario quiera actualizar su horario en una rueda o cambiarse a otra rueda podra presionar el boton de "Cambiar horario"(<b>9 en la imagen</b>), este
+                    redigira al usuario a la pagina de unirse anterior metente detallada.
+                </p>
+                <p>
+                    En el supuesto de que el usuario quisiera darse de baja de nuestra aplicacion deberia de preseionar el boton de "Darse de baja" (<b>10 en la imagen</b>) esto hara que el 
+                    usuario deje de formar parte de la aplicacion y deje de recibir los correos informativos.
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="img/Perfil.jpg" alt="imagen de login" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">2.7.- Acerca de.</h3>
+            <a name="acerca"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-4">
+                <img src="img/Acerca.jpg" alt="imagen de acerca de" class="img-fluid">
+            </div>
+            <div class="col-8">
+               <p>
+                   En esta pagina el usuario podra ver los implicados en la realizacion de esta aplicacion, al igual que el obtener informacion mas detallada sobre la aplicacion, ademas de disponer
+                   de algunos links para las redes sociales de los desarrolladores.
+               </p>
+               <p>Presionando el boton de "Volver" el usuario podra volver a la pagina previa.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>3.- Opciones de administración.</h3>
+            <a name="administracion"></a>
+        </div>
+        <div class="row">
+            <h3 class="ml-5">3.1.- Adminsitracion de ruedas</h3>
+            <a name="ruedas"></a>
+        </div>
+        <div class="row pb-5">
+            <div class="col-4 align-items-center">
+                <img src="img/Ruedas.jpg" alt="imagen de ruedas" class="img-fluid">
+            </div>
+            <div class="col-8">
+               <p>
+                  En caso de que el usuario sea administrador en el menu de navegacion podra acceder a la pagina de administracion de ruedas, en esta podra tanto modificar las ruedas ya existentes como añadir ruedas nuevas.
+               </p>
+               <p>
+                   En caso de presionar el boton que en la imagen aparece como <b>1</b> se desplegara la siguiente ventana que permitira añadir nuevas ruedas:
+                   <div class="row">
+                        <div class="col-8">
+                           Se deberan de introducir los campos para la creacion de una rueda.
+                           <p>
+                               <b>1</b>: Nombre descriptivo para la rueda, es el menu identificativo para que los usuarios puedan unirse a la rueda.
+                           </p>
+                           <p>
+                               <b>2</b>: La descipcion que tendra la rueda, aqui se podra añadir mensajes por si fueran necesarios.
+                           </p>
+                           <p>
+                               <b>3</b>: Origen de la rueda.
+                           </p>
+                           <p>
+                               <b>4</b>: Puntos de salida. Aqui con los botones se podra añadir o eliminar puntos de salida en caso de que queramos que la rueda cuente con varios puntos de salida.
+                           </p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/RuedaAñadir.jpg" alt="Rueda añadir" class="img-fluid">
+                        </div>
+                   </div>
+               </p>
+               <p>
+                En caso de presionar el boton que en la imagen aparece como <b>2</b> se desplegara la siguiente ventana que permitira modificar las ruedas ya existentes:
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/RuedadModificar.jpg" alt="Rueda modificiar" class="img-fluid">
+                    </div>
+                     <div class="col-8">
+                        Se deberan de introducir los campos para la creacion de una rueda.
+                        <p>
+                            <b>1</b>: Nombre descriptivo para la rueda, es el menu identificativo para que los usuarios puedan unirse a la rueda.
+                        </p>
+                        <p>
+                            <b>2</b>: La descipcion que tendra la rueda, aqui se podra añadir mensajes por si fueran necesarios.
+                        </p>
+                        <p>
+                            <b>3</b>: Origen de la rueda.
+                        </p>
+                        <p>
+                            <b>4</b>: Puntos de salida. Aqui con los botones se podra añadir o eliminar puntos de salida en caso de que queramos que la rueda cuente con varios puntos de salida.
+                        </p>
+                     </div>
+                </div>
+                <p>
+                    En caso de presionar el boton que en la imagen aparece como <b>3</b> se borrara la rueda.
+            </p>
+            </div>
+            <div class="row">
+                <h3 class="ml-5">3.2.- Adminsitración de usuarios.</h3>
+                <a name="usuarios"></a>
+            </div>
+            <div class="row pb-5">
+                <div class="col-8">
+                    <p>
+                        En caso de que el usuario sea administrador en el menu de navegacion podra acceder a la pagina de administracion de usuarios, en esta podra tanto modificar los usuarios ya existentes como añadir usuarios nuevos.
+                    </p>
+                    <p>
+                        En caso de presionar el boton que en la imagen aparece como <b>1</b> se desplegara la siguiente ventana que permitira añadir nuevos usuarios:
+                        <div class="row">
+                             <div class="col-8">
+                                Se deberan de introducir los campos para la creacion de un usuario.
+                                <p>
+                                    <b>1</b>: Nombre del usuario.
+                                </p>
+                                <p>
+                                    <b>2</b>: Apellidos del usuario.
+                                </p>
+                                <p>
+                                    <b>3</b>: Email.
+                                </p>
+                                <p>
+                                    <b>4</b>: Contraseña.
+                                </p>
+                                <p>
+                                    <b>6</b>: Rol, se podra seleccionar entre usuario y administrador.
+                                </p>
+                                <p>
+                                    Despues de haber introducido todos los campos (todos son obligatorios), se debera de presionar el boton de "Crear usuario". Esto confirmara su creacion y aparecera en la lista anterior.
+                                </p>
+                             </div>
+                             <div class="col-4">
+                                 <img src="img/AdminAñadir.jpg" alt="Usuario añadir" class="img-fluid">
+                             </div>
+                        </div>
+                    </p>
+                    <p>
+                     En caso de presionar el boton que en la imagen aparece como <b>2</b> se desplegara la siguiente ventana que permitira modificar los usuarios ya existentes:
+                     <div class="row">
+                         <div class="col-4">
+                             <img src="img/AdminModificar.jpg" alt="Usuario modificiar" class="img-fluid">
+                         </div>
+                          <div class="col-8">
+                            Los campos mostraran los valores del usuario selecionado y se podra modificar sus valores.
+                            <p>
+                                <b>1</b>: Nombre del usuario.
+                            </p>
+                            <p>
+                                <b>2</b>: Apellidos del usuario.
+                            </p>
+                            <p>
+                                <b>3</b>: Email.
+                            </p>
+                            <p>
+                                <b>4 y 5</b>: Contraseña con validacion, ambas deberan de coincidir.
+                            </p>
+                            <p>
+                                <b>7</b>: Rol, se podra seleccionar entre usuario y administrador.
+                            </p>
+                            <p>
+                                Despues de haber introducido todos los campos (todos son obligatorios), se debera de presionar el boton de "Guardar usuario". Esto confirmara su modificacion.
+                            </p>
+                     </div>
+                     <p>
+                         En caso de presionar el boton que en la imagen aparece como <b>3</b> se borrara el usuario.
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="img/Admin.jpg" alt="imagen de administrador" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p>
+                    Manual de usuario CarShare ©. Redactado por Jorge Olmo Villa.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
